@@ -143,6 +143,33 @@ Lab2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/build
 .PHONY : Lab2/fast
 
+analyzeData.o: analyzeData.cpp.o
+
+.PHONY : analyzeData.o
+
+# target to build an object file
+analyzeData.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/analyzeData.cpp.o
+.PHONY : analyzeData.cpp.o
+
+analyzeData.i: analyzeData.cpp.i
+
+.PHONY : analyzeData.i
+
+# target to preprocess a source file
+analyzeData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/analyzeData.cpp.i
+.PHONY : analyzeData.cpp.i
+
+analyzeData.s: analyzeData.cpp.s
+
+.PHONY : analyzeData.s
+
+# target to generate assembly for a file
+analyzeData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/analyzeData.cpp.s
+.PHONY : analyzeData.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -170,6 +197,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+randomNum.o: randomNum.cpp.o
+
+.PHONY : randomNum.o
+
+# target to build an object file
+randomNum.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/randomNum.cpp.o
+.PHONY : randomNum.cpp.o
+
+randomNum.i: randomNum.cpp.i
+
+.PHONY : randomNum.i
+
+# target to preprocess a source file
+randomNum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/randomNum.cpp.i
+.PHONY : randomNum.cpp.i
+
+randomNum.s: randomNum.cpp.s
+
+.PHONY : randomNum.s
+
+# target to generate assembly for a file
+randomNum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/randomNum.cpp.s
+.PHONY : randomNum.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -179,9 +233,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Lab2"
+	@echo "... analyzeData.o"
+	@echo "... analyzeData.i"
+	@echo "... analyzeData.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... randomNum.o"
+	@echo "... randomNum.i"
+	@echo "... randomNum.s"
 .PHONY : help
 
 

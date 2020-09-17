@@ -80,7 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/Max/CLionProjects/Lab2/analyzeData.cpp">
+			<Option target="Lab2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Max/CLionProjects/Lab2/analyzeData.hpp">
+			<Option target="Lab2"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Max/CLionProjects/Lab2/main.cpp">
+			<Option target="Lab2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Max/CLionProjects/Lab2/randomNum.cpp">
+			<Option target="Lab2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Max/CLionProjects/Lab2/randomNum.hpp">
 			<Option target="Lab2"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Max/CLionProjects/Lab2/CMakeLists.txt">

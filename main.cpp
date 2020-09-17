@@ -1,6 +1,13 @@
 #include <iostream>
+#include "randomNum.hpp"
+#include "analyzeData.hpp"
+#include <fstream>
+
+using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+
+    randomNum(50, 90, "readings.txt");
+    analyzeData();
     return 0;
 }
