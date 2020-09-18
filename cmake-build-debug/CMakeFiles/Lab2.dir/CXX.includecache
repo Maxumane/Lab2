@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Max/CLionProjects/Lab2/analyzeData.cpp
+analyzeData.hpp
+/cygdrive/c/Users/Max/CLionProjects/Lab2/analyzeData.hpp
+fstream
+-
+iostream
+-
+iomanip
+-
+algorithm
+-
+randomNum.hpp
+/cygdrive/c/Users/Max/CLionProjects/Lab2/randomNum.hpp
+
+/cygdrive/c/Users/Max/CLionProjects/Lab2/analyzeData.hpp
+
+/cygdrive/c/Users/Max/CLionProjects/Lab2/randomNum.hpp
+string
+-
+

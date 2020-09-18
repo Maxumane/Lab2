@@ -29,14 +29,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aec02260-e0a9-4271-af83-4a0f6e05a31e" name="Default Changelist" comment="Created a file containing the method to create the list of doubles with int indexes and create/fill a file called &quot;readings.txt&quot; with data.">
+    <list default="true" id="aec02260-e0a9-4271-af83-4a0f6e05a31e" name="Default Changelist" comment="Reformatted my project so now my Analyzedata cpp has methods that create and populate an array with the data from readings.txt. I then have methods that calculate the statistics of the array data and output those statistics.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyzeData.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/analyzeData.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyzeData.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/analyzeData.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/randomNum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/randomNum.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/randomNum.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/randomNum.hpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/CST3-Resources/OOP/Week1SampleCode" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -97,7 +91,9 @@
       <workItem from="1600191074962" duration="17296000" />
       <workItem from="1600303839659" duration="15291000" />
       <workItem from="1600382269822" duration="15099000" />
-      <workItem from="1600420554438" duration="22000" />
+      <workItem from="1600420554438" duration="390000" />
+      <workItem from="1600449439318" duration="770000" />
+      <workItem from="1600473009768" duration="438000" />
     </task>
     <task id="LOCAL-00001" summary="Created a file containing the method to create the list of doubles with int indexes and create/fill a file called &quot;readings.txt&quot; with data.">
       <created>1600323445645</created>
@@ -106,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600323445645</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Reformatted my project so now my Analyzedata cpp has methods that create and populate an array with the data from readings.txt. I then have methods that calculate the statistics of the array data and output those statistics.">
+      <created>1600420929945</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600420929945</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,17 +129,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created a file containing the method to create the list of doubles with int indexes and create/fill a file called &quot;readings.txt&quot; with data." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a file containing the method to create the list of doubles with int indexes and create/fill a file called &quot;readings.txt&quot; with data." />
+    <MESSAGE value="Reformatted my project so now my Analyzedata cpp has methods that create and populate an array with the data from readings.txt. I then have methods that calculate the statistics of the array data and output those statistics." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformatted my project so now my Analyzedata cpp has methods that create and populate an array with the data from readings.txt. I then have methods that calculate the statistics of the array data and output those statistics." />
   </component>
   <component name="WindowStateProjectService">
     <state x="539" y="198" key="#New_File_Extensions" timestamp="1600332133335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="539" y="198" key="#New_File_Extensions/0.0.1920.1040/-1920.8.1920.1040@0.0.1920.1040" timestamp="1600332133335" />
-    <state x="727" y="281" key="FileChooserDialogImpl" timestamp="1600106244758">
+    <state x="727" y="281" key="FileChooserDialogImpl" timestamp="1600449612168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="727" y="281" key="FileChooserDialogImpl/0.0.1920.1040/-1920.8.1920.1040@0.0.1920.1040" timestamp="1600106244758" />
+    <state x="727" y="281" key="FileChooserDialogImpl/0.0.1920.1040/-1920.8.1920.1040@0.0.1920.1040" timestamp="1600449612168" />
     <state x="825" y="438" key="Github.ShareDialog" timestamp="1600106286755">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -145,26 +149,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="748" y="245" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1920.8.1920.1040@0.0.1920.1040" timestamp="1600106294575" />
-    <state width="938" height="266" key="GridCell.Tab.0.bottom" timestamp="1600401113261">
+    <state width="938" height="266" key="GridCell.Tab.0.bottom" timestamp="1600473077683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.8.1920.1040@0.0.1920.1040" timestamp="1600401113261" />
-    <state width="938" height="266" key="GridCell.Tab.0.center" timestamp="1600401113261">
+    <state width="938" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.8.1920.1040@0.0.1920.1040" timestamp="1600473077683" />
+    <state width="938" height="266" key="GridCell.Tab.0.center" timestamp="1600473077682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.8.1920.1040@0.0.1920.1040" timestamp="1600401113261" />
-    <state width="938" height="266" key="GridCell.Tab.0.left" timestamp="1600401113261">
+    <state width="938" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.8.1920.1040@0.0.1920.1040" timestamp="1600473077682" />
+    <state width="938" height="266" key="GridCell.Tab.0.left" timestamp="1600473077682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.8.1920.1040@0.0.1920.1040" timestamp="1600401113261" />
-    <state width="938" height="266" key="GridCell.Tab.0.right" timestamp="1600401113261">
+    <state width="938" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.8.1920.1040@0.0.1920.1040" timestamp="1600473077682" />
+    <state width="938" height="266" key="GridCell.Tab.0.right" timestamp="1600473077682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.8.1920.1040@0.0.1920.1040" timestamp="1600401113261" />
-    <state x="539" y="273" key="Vcs.Push.Dialog.v2" timestamp="1600323450325">
+    <state width="938" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.8.1920.1040@0.0.1920.1040" timestamp="1600473077682" />
+    <state x="539" y="273" key="Vcs.Push.Dialog.v2" timestamp="1600420937481">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.8.1920.1040@0.0.1920.1040" timestamp="1600323450325" />
+    <state x="539" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.8.1920.1040@0.0.1920.1040" timestamp="1600420937481" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1600334672483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
