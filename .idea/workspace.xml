@@ -30,7 +30,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aec02260-e0a9-4271-af83-4a0f6e05a31e" name="Default Changelist" comment="Reformatted my project so now my Analyzedata cpp has methods that create and populate an array with the data from readings.txt. I then have methods that calculate the statistics of the array data and output those statistics.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyzeData.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/analyzeData.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,7 @@
       <workItem from="1600382269822" duration="15099000" />
       <workItem from="1600420554438" duration="390000" />
       <workItem from="1600449439318" duration="770000" />
-      <workItem from="1600473009768" duration="438000" />
+      <workItem from="1600473009768" duration="486000" />
     </task>
     <task id="LOCAL-00001" summary="Created a file containing the method to create the list of doubles with int indexes and create/fill a file called &quot;readings.txt&quot; with data.">
       <created>1600323445645</created>
@@ -109,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600420929945</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Reformatted my project so now my Analyzedata cpp has methods that create and populate an array with the data from readings.txt. I then have methods that calculate the statistics of the array data and output those statistics.">
+      <created>1600473461689</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600473461689</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,10 +172,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="938" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.8.1920.1040@0.0.1920.1040" timestamp="1600473077682" />
-    <state x="539" y="273" key="Vcs.Push.Dialog.v2" timestamp="1600420937481">
+    <state x="539" y="273" key="Vcs.Push.Dialog.v2" timestamp="1600473465925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.8.1920.1040@0.0.1920.1040" timestamp="1600420937481" />
+    <state x="539" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.8.1920.1040@0.0.1920.1040" timestamp="1600473465925" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1600334672483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

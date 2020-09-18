@@ -13,7 +13,8 @@ const char *targetfile = "readings.txt";
 std::ifstream analInFile(targetfile);
 
 double findMedian(double a[], int n) {
-    //INFO FOUND ON https://www.geeksforgeeks.org/median/
+    //INFO FOUND ON https://www.geeksforgeeks.org/median/ Jeff stated so long as we linked the source
+    //it was cool on this one
 
     // First we sort the array
     sort(a, a + getEntries());
