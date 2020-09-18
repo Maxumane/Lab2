@@ -11,7 +11,7 @@ using namespace std;
 
 
 void randomNum(double rmin, double rmax, string location);
-
+int getEntries();
 
 
 #endif //LAB2_RANDOMNUM_HPP

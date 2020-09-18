@@ -4,7 +4,9 @@
 
 #ifndef LAB2_ANALYZEDATA_HPP
 #define LAB2_ANALYZEDATA_HPP
-
-void analyzeData();
-
+void fillandSortArray();
+double findMin(double a[], int n);
+double findMax(double a[], int n);
+double findAvg(double a[], int n);
+double findMedian(double a[], int n);
 #endif //LAB2_ANALYZEDATA_HPP

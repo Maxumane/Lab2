@@ -3,6 +3,7 @@
 
 CMakeFiles/Lab2.dir/analyzeData.cpp.o: ../analyzeData.cpp
 CMakeFiles/Lab2.dir/analyzeData.cpp.o: ../analyzeData.hpp
+CMakeFiles/Lab2.dir/analyzeData.cpp.o: ../randomNum.hpp
 
 CMakeFiles/Lab2.dir/main.cpp.o: ../analyzeData.hpp
 CMakeFiles/Lab2.dir/main.cpp.o: ../main.cpp

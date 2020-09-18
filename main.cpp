@@ -8,6 +8,6 @@ using namespace std;
 int main() {
 
     randomNum(50, 90, "readings.txt");
-    analyzeData();
+    fillandSortArray();
     return 0;
 }

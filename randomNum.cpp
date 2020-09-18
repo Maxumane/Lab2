@@ -8,10 +8,15 @@
 #include <ctime>
 #include <fstream>
 #include <iomanip>
+#include <bits/stdc++.h>
 
 
 
 using namespace std;
+int numberOfEntries;
+const char *filename = "readings.txt";
+std::ifstream inFile(filename);
+double oArray[0];
 
 void randomNum(double rmin, double rmax, string location) {
 
@@ -26,7 +31,7 @@ void randomNum(double rmin, double rmax, string location) {
     random_device rd; // Random int generator
     mt19937 entryGen(rd()); // Calls operator
     uniform_int_distribution<> distribution(512, 1024);
-    int numberOfEntries = distribution(entryGen);
+    numberOfEntries = distribution(entryGen);
 
 
     default_random_engine generator(time(0));
@@ -37,3 +42,12 @@ void randomNum(double rmin, double rmax, string location) {
     }
     f.close();
 }
+
+
+int getEntries() {
+    return numberOfEntries;
+}
+
+
+
+
